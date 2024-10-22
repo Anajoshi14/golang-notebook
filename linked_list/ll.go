@@ -21,6 +21,20 @@ func (l *LinkedList) AddToFront(n int) {
 
 }
 
+func (l *LinkedList) AddToBack(n int) {
+	if l.head == nil {
+		l.head = &Node{num: n, next: nil}
+	} else {
+		newNode := &Node{num: n, next: nil}
+		temp := l.head
+		for temp.next != nil {
+			temp = temp.next //moving the temp pointer to the next element
+		}
+		temp.next = newNode
+
+	}
+}
+
 func (ll *LinkedList) DisplayLinkedList() {
 
 	temp := *ll.head
