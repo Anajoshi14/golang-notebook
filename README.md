@@ -9,17 +9,14 @@ Welcome to my personal **Golang learning journal**. This notebook will grow as I
 - 📌 Topic-wise code snippets and notes  
 - 🧪 Practice exercises and utilities  
 - 🌐 Mini backend projects  
-- 🧠 Interview prep with Go
 
 ---
 
 ## 🏁 Goals
 
 - Build a strong foundation in Go  
-- Learn concurrency, web APIs, and database integration  
-- Develop backend systems using idiomatic Go  
+- Learn concurrency, web APIs, and database integration   
 - Track real learning progress
 
 ---
 
-📌 **Repository in progress — stay tuned!**
